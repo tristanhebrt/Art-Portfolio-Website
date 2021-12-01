@@ -1,0 +1,13 @@
+------
+Colors
+------
+#D0D9B2 - Light less saturated green
+#4F592E - Forest green
+#9FA688 - Less saturated green
+#565949 - Greeny black
+#C7E075 - Lime green
+------
+Fonts
+------
+Bakso Sapi - Headers
+Naomis Hand - Text
