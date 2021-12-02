@@ -25,6 +25,10 @@ header{
     padding: 10px;
 }
 
+.enlarge{
+    transition:all .2s ease-in-out;
+}
+
 .enlarge:hover {
     transform:scale(1.1);
     transition:500ms;
@@ -70,6 +74,7 @@ footer{
     padding:10px;
     border: none;
     cursor: pointer;
+    transition:all .2s ease-in-out;
 }
 
 .dropdown {
@@ -105,5 +110,5 @@ footer{
 
 .show {
     display: block;
-    border-radius:20px;
+    box-shadow:1px 1px 10px;
 }
