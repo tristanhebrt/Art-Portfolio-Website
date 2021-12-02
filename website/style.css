@@ -18,11 +18,15 @@ header{
 }
 .row {
     display: flex;
+    padding:10px;
+    max-width:100%;
 }
   
 .column {
     flex: 33.33%;
-    padding: 10px;
+    padding-right:30px;
+    margin-left:70px;
+
 }
 
 .enlarge{
@@ -47,12 +51,19 @@ header{
     min-height:100%;
 }
 
+.good_size {
+    max-width:90%;
+    height:auto;
+}
+
 h1{
     color:#889b4b;
+    padding-left:40px;
 }
 
 h2{
     background-image:linear-gradient(rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.05)),url(assets/paper.png);
+    background-repeat:no-repeat;
     padding:20px;
     box-shadow:1px 1px 10px;
 }
