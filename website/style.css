@@ -1,0 +1,22 @@
+@font-face{
+    font-family:'BaksoSapi';
+    src:url('BaksoSapi.otf')format('otf');
+}
+@font-face{
+    font-family:'NaomisHand';
+    src:url('NaomisHand-Regular.ttf')format('ttf');
+}
+.home_body{
+    background-color:black;
+    background-size:auto;
+}
+body{
+    position:static;
+    margin:0;
+    color:pink;
+    background-color:grey;
+    font-family:'BaksoSapi';
+}
+header{
+    font-family:'BaksoSapi';
+}
