@@ -1,25 +1,38 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="javascript.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gloria+Hallelujah&family=Nanum+Pen+Script&display=swap');
+        </style>
     </head>
     <body class=home_body>
         <header>
-            <h1>Sierra Hill</h1>
-            <a href="mailto:sierraelizhill@gmail.com"class="email">sierraelizhill@gmail.com</a><br>
-            <a href="about.html" class="button">About</a>
-            <a href="illustration.html" class="button">Illustration</a>
-            <a href="animation.html" class="button">Animation</a>
-            <a href="character_design.html" class="button">Character Design</a>
-            <a href="other_work.html" class="button">Other Work</a>
+            <div class='dropdown'>
+                <button onclick="dropdown()" class="dropbtn">Menu</button>
+                <div id="header_dropdown" class="dropdown_content">
+                    <a href="about.html" class="button">About</a>
+                    <a href="illustration.html" class="button">Illustration</a>
+                    <a href="animation.html" class="button">Animation</a>
+                    <a href="character_design.html" class="button">Character Design</a>
+                    <a href="other_work.html" class="button">Other Work</a>
+                </div>
+            </div>
+            <div class="title">
+                <h1>Sierra Hill</h1>
+            </div>
+            <div class='email'>
+                <a href="mailto:sierraelizhill@gmail.com"class="email">Contact me!</a>
+            </div>
         </header>
         <div class="showcase">
             <h1>Test the format and the fonts</h1>
         </div>
         <footer>
-            <a href="https://www.instagram.com/">
+            <a style="text-decoration:none; padding:10px" href="https://www.instagram.com/">
                 <img src="assets\instagram_logo.png" alt="instagram">
             </a>
-            <a href="https://twitter.com/">
+            <a style="text-decoration:none; padding:10px" href="https://twitter.com/">
                 <img src="assets\twitter_logo.png" alt="twitter">
             </a>
         </footer>
