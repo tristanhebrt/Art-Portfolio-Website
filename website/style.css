@@ -1,12 +1,14 @@
 .home_body{
     background-color:#9FA688;
     background-size:auto;
+    margin:0px;
 }
 
 body{
     position:static;
     color:#4F592E;
 }
+
 header{
     font-family:'Caveat Brush', cursive;
     font-size:larger;
@@ -14,19 +16,41 @@ header{
     background-color:#D0D9B2;
     padding:0px;
 }
-.title{
-    float:left;
+.row {
+    display: flex;
 }
-.email{
-    float:right;
-    text-decoration:none;
-    color:black;
+  
+.column {
+    flex: 33.33%;
+    padding: 10px;
 }
+
+.enlarge:hover {
+    transform:scale(1.1);
+    transition:500ms;
+}
+
 .showcase{
+    background-image:url("assets/paper.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
     color:#565949;
     font-family:'Gloria Hallelujah', cursive;
     font-size:10px;
-    padding-left:10px;
+    padding:20px;
+    min-height:100%;
+}
+
+h1{
+    color:#889b4b;
+}
+
+h2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.05)),url(assets/paper.png);
+    padding:20px;
+    box-shadow:1px 1px 10px;
 }
 
 footer{
@@ -37,23 +61,15 @@ footer{
     padding:15px;
 }
 
+
+
 /* Dropdown menu CSS */
 
 .dropbtn {
-    color:#4F592E;
-    background-color:#D0D9B2;
     font-family:'Caveat Brush', cursive;
-    padding:15px;
-    font-size:30px;
+    padding:10px;
     border: none;
     cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    color:#565949;
-    background-color:#9FA688;
-    border-radius:20px;
-    transition:1s;
 }
 
 .dropdown {
@@ -61,13 +77,17 @@ footer{
     display: inline-block;
 }
 
+.dropbtn:hover {
+    transform:scale(1.1);
+    transition:500ms;
+}
+
 .dropdown_content {
     display: none;
     position: absolute;
-    background-color: #565949;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.02),rgba(0, 0, 0, 0.02)),url(assets/paper.png);
     min-width: 160px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -79,8 +99,8 @@ footer{
 }
 
 .dropdown a:hover {
-    color:#D0D9B2;
-    background-color:#4F592E;
+    color:#4F592E;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.05)),url(assets/paper.png);
 }
 
 .show {

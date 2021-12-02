@@ -1,23 +1,56 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="javascript.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gloria+Hallelujah&family=Nanum+Pen+Script&display=swap');
+        </style>
     </head>
     <body class=home_body>
+
         <header>
-            <a href="home.html" class="button">Home</a>
-            <a href="about.html" class="button">About</a>
-            <a href="illustration.html" class="button">Illustration</a>
-            <a href="animation.html" class="button">Animation</a>
-            <a href="character_design.html" class="button">Character Design</a>
-            <a href="other_work.html" class="button">Other Work</a>
+            <div class="row">
+                <div class="column">
+                    <div class='dropdown'>
+                        <img src="assets/tape_menu.png" onclick="dropdown()" class="dropbtn"></button>
+                        <div id="header_dropdown" class="dropdown_content">
+                            <a href="about.html" class="button">About</a>
+                            <a href="illustration.html" class="button">Illustration</a>
+                            <a href="animation.html" class="button">Animation</a>
+                            <a href="character_design.html" class="button">Character Design</a>
+                            <a href="other_work.html" class="button">Other Work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <a href="about.html">
+                        <img src="assets/tape_sierrahill.png" alt="tape_sierrahill" class="enlarge">
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="mailto:sierraelizhill@gmail.com">
+                        <img src="assets/tape_contactme.png" class="enlarge">
+                    </a>
+                </div>
+            </div>
         </header>
+
+        <div class="showcase">
+            <div class="row">
+                <div class="column">
+                    <h1>*Character design page*</h1>
+                </div>
+            </div>
+        </div>
+
         <footer>
-            <a href="https://www.instagram.com/">
-                <img src="assets\instagram_logo.png" alt="instagram">
+            <a style="text-decoration:none; padding:10px" href="https://www.instagram.com/cowboysierraa">
+                <img src="assets\tape_instagram.png" alt="instagram" class="enlarge">
             </a>
-            <a href="https://twitter.com/">
-                <img src="assets\twitter_logo.png" alt="twitter">
+            <a style="text-decoration:none; padding:10px" href="https://twitter.com/">
+                <img src="assets\tape_twitter.png" alt="twitter" class="enlarge">
             </a>
         </footer>
+
     </body>
 </html>
